@@ -1,0 +1,41 @@
+* {
+    /* border: solid red 2px; */
+}
+body {
+    display: block;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+.myBtn {
+    font-size: 3em;
+    cursor: pointer;
+    padding: 2px 10px;
+    border-style: none;
+    background-color: #a34f83;
+    color: #ecebeb;
+    transition: background-color 0.25s;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.myBtn:hover {
+    background-color: #8b2062;
+}
+
+.resultContainer {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px #8b2062;
+    padding: 2px 10px;
+    margin: 10px 100px;
+    border-radius: 10px;
+    height: 2.5em;
+}
+
+.myLabels {
+    font-size: 2em;
+    color: #8b2062;
+}
